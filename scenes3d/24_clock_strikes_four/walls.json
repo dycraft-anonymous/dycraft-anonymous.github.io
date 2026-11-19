@@ -1,0 +1,62 @@
+{
+"hide": [
+"part/blind_end_wall/body",
+"part/blind_end_wall/skirting",
+"part/boarded_ceiling/body",
+"part/boarded_ceiling/ceiling_battens",
+"part/pantry_back/body",
+"part/pantry_back/skirting",
+"part/window_and_courtyard/body",
+"part/window_and_courtyard/splashback_tiles",
+"part/window_and_courtyard/yard_bricks",
+"part/window_and_courtyard/yard_mortar",
+"part/window_and_courtyard/yard_coping"
+],
+"cut": [
+"part/entrance_and_passage/body"
+],
+"units": [
+{"kind":"ceiling","box":[-1.798,-1.4,1.798,1.4],"under":2.6},
+{"kind":"ceiling","box":[-1.8,-0.942,1.8,0.922],"under":2.542},
+{"kind":"ceiling","box":[-1.16,-2.8,-0.14,-1.5],"under":2.6},
+{"kind":"ceiling","box":[-1.09,-1.56,-0.21,-1.4],"under":2.09},
+{"kind":"ceiling","box":[3.455,-1.725,3.765,1.805],"under":1.82},
+{"kind":"wall","box":[0,1.3,1.274,0,1,0.291,1.965,1.305]},
+{"kind":"wall","box":[0,1.34,-1.48,0,-1,0.085,1.965,1.345]},
+{"kind":"wall","box":[-1.858,1.3,0,-1,0,0.107,1.405,1.305]},
+{"kind":"context","box":[3.63,0.91,0.042,-1,0,0.125,1.812,0.915]},
+{"kind":"context","box":[1.872,1.3,0,-1,0,0.093,1.405,1.305]},
+{"kind":"wall","box":[-1.16,1.3,-2.15,-1,0,0.075,0.615,1.305]},
+{"kind":"wall","box":[-0.14,1.3,-2.15,-1,0,0.075,0.615,1.305]},
+{"kind":"wall","box":[-0.65,1.34,-2.8,0,-1,0.075,0.585,1.345]},
+{"kind":"wall","box":[-1.96,1.3,-1.48,-1,0,0.005,0.085,1.305]},
+{"kind":"wall","box":[-1.96,1.3,1.48,-1,0,0.005,0.085,1.305]},
+{"kind":"wall","box":[-1.23,1.3,-2.8,-1,0,0.005,0.075,1.305]},
+{"kind":"wall","box":[-0.07,1.3,-2.8,1,0,0.005,0.075,1.305]},
+{"kind":"wall","box":[-0.65,2.68,-2.15,1,0,0.515,0.655,0.005]},
+{"kind":"wall","box":[-1.16,2.64,-2.15,-1,0,0.005,0.655,0.045]},
+{"kind":"wall","box":[-0.14,2.64,-2.15,1,0,0.005,0.655,0.045]}
+],
+"tris": [
+["part/blind_end_wall/body",0,[[7,4],[5,2],[6,2],[7,4]]],
+["part/blind_end_wall/skirting",0,[[7,4],[5,2],[6,2],[7,4]]],
+["part/boarded_ceiling/body",0,[[0,216]]],
+["part/boarded_ceiling/ceiling_battens",0,[[1,24]]],
+["part/entrance_and_passage/body",0,[[13,2],[6,14],[-1,2],[6,2],[3,2],[6,2],[-1,2],[6,2],[10,4],[6,2],[12,2],[-1,2],[10,2],[11,4],[6,2],[12,2],[-1,2],[11,2],[15,2],[16,2],[12,4],[-1,2],[12,2],[18,2],[19,2],[6,2],[12,2],[2,2],[17,2]]],
+["part/pantry_back/body",0,[[14,2],[5,912],[-1,1],[5,130],[-1,1],[5,102]]],
+["part/pantry_back/skirting",0,[[7,2],[9,2],[5,8]]],
+["part/window_and_courtyard/body",0,[[9,8],[5,2],[9,4],[6,2],[9,16]]],
+["part/window_and_courtyard/splashback_tiles",0,[[9,14],[5,2],[9,720]]],
+["part/window_and_courtyard/yard_bricks",0,[[8,3696]]],
+["part/window_and_courtyard/yard_coping",0,[[4,284]]],
+["part/window_and_courtyard/yard_mortar",0,[[8,12]]]
+],
+"attach": [
+{"nodes":["part/cup_ledge/body","part/cup_ledge/brackets","part/mug_and_tea_tin/earthenware_mug","part/mug_and_tea_tin/loose_lid_red","part/mug_and_tea_tin/painted_tea_cartouche","part/mug_and_tea_tin/tea_tin_inner","part/mug_and_tea_tin/tea_tin_red_shell","part/mug_and_tea_tin/tea_tin_rolled_edge","part/mug_and_tea_tin/tin_bottom_and_lid_seams"],"units":[9],"used":0},
+{"nodes":["part/entrance_and_passage/packed_repairs","part/entrance_and_passage/parcel_twine","part/entrance_and_passage/passage_shelves"],"units":[10],"used":0},
+{"nodes":["part/parts_shelf/body","part/parts_shelf/old_stub_and_cleat","part/parts_tray/folded_cleaning_rag","part/parts_tray/rim_brads","part/parts_tray/steel_screws","part/parts_tray/steel_washers","part/parts_tray/tray_wood","part/parts_tray/winding_key"],"units":[5],"used":0},
+{"nodes":["part/task_lamp/body","part/task_lamp/bulb","part/task_lamp/cord","part/task_lamp/enamel_shade","part/task_lamp/lower_arm","part/task_lamp/lower_wingnuts","part/task_lamp/pantry_cleat","part/task_lamp/shade_inner_enamel","part/task_lamp/socket","part/task_lamp/upper_arm","part/task_lamp/upper_wingnut","part/task_lamp/wall_outlet"],"units":[5],"used":0},
+{"nodes":["part/task_lamp/clamp_screw"],"units":[5],"used":0},
+{"nodes":["part/washing_station/tap_and_compression_unions","part/washing_station/tap_cross_handle","part/washing_station/tap_wall_mount","part/window_and_courtyard/lower_glazing","part/window_and_courtyard/lower_glazing_beads","part/window_and_courtyard/lower_sash","part/window_and_courtyard/sash_lifts","part/window_and_courtyard/stone_sill","part/window_and_courtyard/upper_glazing","part/window_and_courtyard/upper_glazing_beads","part/window_and_courtyard/window_frame"],"units":[9],"used":0}
+]
+}

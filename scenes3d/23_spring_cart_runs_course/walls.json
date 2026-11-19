@@ -1,0 +1,66 @@
+{
+"hide": [
+"part/architecture_ceiling/slab",
+"part/architecture_back/masonry",
+"part/architecture_back/lower_dado",
+"part/architecture_back/skirting_and_dado_cap",
+"part/architecture_loading/masonry",
+"part/architecture_loading/lower_dado",
+"part/architecture_loading/skirting_and_dado_cap",
+"part/architecture_loading/opposite_brick_store",
+"part/architecture_loading/store_wall_coping",
+"part/architecture_right/masonry",
+"part/architecture_right/lower_dado",
+"part/architecture_right/skirting_and_dado_cap",
+"part/architecture_stock/masonry",
+"part/architecture_stock/lower_dado",
+"part/architecture_stock/skirting_and_dado_cap"
+],
+"cut": [
+"part/architecture_stock/stock_passage_returns"
+],
+"units": [
+{"kind":"ceiling","box":[-2.1,-1.7,2.1,1.7],"under":2.45},
+{"kind":"ceiling","box":[-3.05,0.76,-2.19,1.6],"under":2.26},
+{"kind":"wall","box":[2.14,1.753,0,-1,0,0.055,1.795,0.702]},
+{"kind":"wall","box":[-2.138,1.225,0,-1,0,0.057,1.795,1.23]},
+{"kind":"wall","box":[1.934,0.54,0,-1,0,0.261,1.795,0.545]},
+{"kind":"context","box":[0,0.867,3.76,0,-1,0.08,2.215,0.873]},
+{"kind":"wall","box":[0,1.765,-1.745,0,-1,0.05,2.105,0.69]},
+{"kind":"wall","box":[-1.979,0.54,-0.515,-1,0,0.216,1.28,0.545]},
+{"kind":"wall","box":[0,0.54,-1.738,0,-1,0.057,2.105,0.545]},
+{"kind":"wall","box":[-3.098,1.16,1.18,-1,0,0.053,0.515,1.165]},
+{"kind":"wall","box":[-2.62,1.16,0.715,0,-1,0.05,0.435,1.165]},
+{"kind":"wall","box":[-2.62,1.16,1.645,0,-1,0.05,0.435,1.165]},
+{"kind":"wall","box":[-1.43,1.753,1.741,0,-1,0.055,0.675,0.702]},
+{"kind":"wall","box":[1.53,1.765,1.745,0,-1,0.05,0.575,0.69]},
+{"kind":"wall","box":[-1.43,0.54,1.695,0,-1,0.1,0.675,0.545]},
+{"kind":"wall","box":[1.53,0.54,1.738,0,-1,0.057,0.575,0.545]},
+{"kind":"wall","box":[-2.62,2.32,1.18,1,0,0.435,0.425,0.005]},
+{"kind":"wall","box":[0.1,2.315,1.745,0,-1,0.05,0.865,0.14]},
+{"kind":"wall","box":[0.1,2.315,1.79,0,1,0.005,0.865,0.14]}
+],
+"tris": [
+["part/architecture_back/lower_dado",0,[[7,2],[4,2],[8,8]]],
+["part/architecture_back/masonry",0,[[3,2],[2,2],[6,4],[8,2],[6,2]]],
+["part/architecture_back/skirting_and_dado_cap",0,[[7,2],[4,2],[8,8],[7,2],[8,8],[7,2],[8,8],[7,2],[8,18],[4,2],[8,10],[4,2],[8,2],[4,2],[8,2]]],
+["part/architecture_ceiling/slab",0,[[0,12]]],
+["part/architecture_loading/lower_dado",0,[[14,10],[12,2],[15,2],[4,2],[15,8]]],
+["part/architecture_loading/masonry",0,[[3,2],[12,10],[13,2],[2,2],[13,4],[15,2],[13,2],[17,4],[18,2],[17,6]]],
+["part/architecture_loading/opposite_brick_store",0,[[5,12]]],
+["part/architecture_loading/skirting_and_dado_cap",0,[[14,12],[15,2],[4,2],[15,8],[12,4],[14,4],[12,4],[15,2],[4,2],[15,8]]],
+["part/architecture_loading/store_wall_coping",0,[[5,12]]],
+["part/architecture_right/lower_dado",0,[[4,10],[2,2]]],
+["part/architecture_right/masonry",0,[[2,12]]],
+["part/architecture_right/skirting_and_dado_cap",0,[[4,4],[15,2],[8,2],[4,8],[15,2],[8,2],[2,4]]],
+["part/architecture_stock/lower_dado",0,[[3,2],[14,2],[3,8],[7,4],[3,8]]],
+["part/architecture_stock/masonry",0,[[3,36]]],
+["part/architecture_stock/skirting_and_dado_cap",0,[[14,12],[7,4],[3,2],[8,2],[3,4],[14,12],[7,4],[3,2],[8,2],[3,4]]],
+["part/architecture_stock/stock_passage_returns",0,[[9,8],[-1,2],[9,4],[3,2],[11,4],[-1,2],[11,2],[9,2],[3,2],[10,4],[-1,2],[10,2],[9,2],[3,2],[11,2],[10,2],[1,2],[16,2]]]
+],
+"attach": [
+{"nodes":["LoanLedgerHeading","LoanLedgerLeftEntries","LoanLedgerRightEntries","part/repair_room_environment/p_ledger_leaf_edges","part/repair_room_environment/p_ledger_pencil_barrel","part/repair_room_environment/p_ledger_pencil_graphite","part/repair_room_environment/p_ledger_pencil_sharpening","part/repair_room_environment/p_ledger_shelf","part/repair_room_environment/p_ledger_shelf_brackets","part/repair_room_environment/p_loan_ledger_cloth_covers","part/repair_room_environment/p_loan_ledger_open_pages"],"units":[2],"used":0},
+{"nodes":["Tray_AXLES","Tray_BUSHES","Tray_FITTINGS","Tray_PULLEYS","part/repair_room_environment/p_dark_shelf_recess_backing","part/repair_room_environment/p_divided_spares_trays","part/repair_room_environment/p_hammer_ash_handle","part/repair_room_environment/p_hammer_forged_head","part/repair_room_environment/p_hanging_double_open_spanner","part/repair_room_environment/p_packing_spacer_felt_pads","part/repair_room_environment/p_profiled_course_packing_spacers","part/repair_room_environment/p_spare_axles_and_collars","part/repair_room_environment/p_spare_enamel_angle_feet","part/repair_room_environment/p_spare_pulleys_and_bushes","part/repair_room_environment/p_storage_screwed_steel_brackets","part/repair_room_environment/p_storage_shelf_boards","part/repair_room_environment/p_tool_board_frame","part/repair_room_environment/p_tool_board_hanger_pegs","part/repair_room_environment/p_tool_shadow_board","part/repair_room_environment/p_tray_card_brass_frames","part/repair_room_environment/p_tray_inventory_cards","part/repair_room_environment/p_vacant_tool_outline_marks"],"units":[6,8],"used":0},
+{"nodes":["part/repair_room_environment/lid_wall_corner_buffers"],"units":[8],"used":0}
+]
+}

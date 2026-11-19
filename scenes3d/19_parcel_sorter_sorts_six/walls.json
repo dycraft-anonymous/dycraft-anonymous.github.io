@@ -1,0 +1,62 @@
+{
+"hide": [
+"part/depot/ceiling_battens",
+"part/depot/ceiling_boards",
+"part/depot/wall_feed",
+"part/depot/wall_outlet",
+"part/depot/wall_store",
+"part/depot/wall_window",
+"part/depot/skirting_boards",
+"part/depot/court_opposite_bricks",
+"part/depot/court_opposite_mortar",
+"part/depot/court_wall_coping",
+"part/depot/passage_ceiling"
+],
+"cut": [
+"part/depot/passage_plaster_returns",
+"part/depot/recess_side_returns"
+],
+"units": [
+{"kind":"ceiling","box":[-2,-2.328,2,2.298],"under":2.6},
+{"kind":"ceiling","box":[-2.1,-2.498,2.1,2.498],"under":2.65},
+{"kind":"ceiling","box":[-3.89,-2.63,-3.65,2.63],"under":2.152},
+{"kind":"ceiling","box":[0.165,2.525,2.075,3.975],"under":2.5},
+{"kind":"wall","box":[1.91,1.325,0,-1,0,0.195,2.505,1.33]},
+{"kind":"context","box":[-3.763,1.055,-0.01,-1,0,0.093,2.634,1.131]},
+{"kind":"wall","box":[-2.033,1.325,0,-1,0,0.072,2.505,1.33]},
+{"kind":"wall","box":[0,1.325,2.53,0,-1,0.075,2.105,1.33]},
+{"kind":"wall","box":[0,1.325,-2.53,0,-1,0.075,2.105,1.33]},
+{"kind":"wall","box":[0.205,1.25,3.257,-1,0,0.05,0.712,1.255]},
+{"kind":"wall","box":[2.055,1.25,3.257,-1,0,0.05,0.712,1.255]},
+{"kind":"wall","box":[-1.3,1.23,-3.08,-1,0,0.053,0.53,1.235]},
+{"kind":"wall","box":[1,1.23,-3.08,-1,0,0.053,0.53,1.235]},
+{"kind":"wall","box":[1.13,1.25,3.92,0,-1,0.05,0.975,1.255]},
+{"kind":"wall","box":[-2.1,1.325,2.55,-1,0,0.005,0.055,1.33]},
+{"kind":"wall","box":[-2.1,1.325,-2.55,-1,0,0.005,0.055,1.33]}
+],
+"tris": [
+["part/depot/ceiling_battens",0,[[0,48]]],
+["part/depot/ceiling_boards",0,[[1,300]]],
+["part/depot/court_opposite_bricks",0,[[5,5352]]],
+["part/depot/court_opposite_mortar",0,[[5,12]]],
+["part/depot/court_wall_coping",0,[[2,12]]],
+["part/depot/passage_ceiling",0,[[3,12]]],
+["part/depot/passage_plaster_returns",0,[[9,4],[13,2],[7,2],[-1,2],[9,2],[10,4],[13,2],[7,2],[-1,2],[10,2],[9,2],[10,2],[13,4],[-1,2],[13,2]]],
+["part/depot/recess_side_returns",0,[[11,4],[8,2],[11,2],[-1,2],[11,2],[12,4],[8,2],[12,2],[-1,2],[12,2]]],
+["part/depot/skirting_boards",0,[[6,4],[7,2],[8,2],[6,4],[4,4],[7,2],[8,2],[4,4],[6,2],[7,10],[4,4],[7,8],[6,2],[4,2],[8,8]]],
+["part/depot/wall_feed",0,[[14,2],[7,26]]],
+["part/depot/wall_outlet",0,[[15,2],[8,30]]],
+["part/depot/wall_store",0,[[4,4],[7,2],[8,2],[4,4]]],
+["part/depot/wall_window",0,[[6,8],[7,2],[6,4],[8,2],[6,16]]]
+],
+"attach": [
+{"nodes":["Stock_label_22","Stock_label_23","Stock_label_24","part/depot/repair_component_shelf","part/depot/repair_lamp_bracket","part/depot/repair_lamp_bulb_unlit","part/depot/repair_lamp_cream_inner_rim","part/depot/repair_lamp_enamel_shade","part/depot/repair_painted_tin","part/depot/repair_replacement_lid","part/depot/repair_shelf_triangular_brackets","part/depot/repair_tin_bodies","part/depot/repair_tin_labels","part/depot/repair_tin_lids"],"units":[6],"used":0},
+{"nodes":["part/depot/canopy_fascia_and_brackets","part/depot/recess_corrugated_canopy"],"units":[8],"used":0,"over":2.36},
+{"nodes":["part/depot/dispatch_shelf_brackets","part/depot/dispatch_wall_shelf"],"units":[8],"used":0},
+{"nodes":["part/depot/hatch_timber_lining","part/depot/loading_hatch_sill","part/depot/parked_loading_shutter","part/depot/shutter_overhead_rail","part/depot/shutter_rollers_pull"],"units":[8],"used":0},
+{"nodes":["part/depot/passage_instrument_stock","part/depot/passage_open_instrument_trays","part/depot/passage_shelf"],"units":[13],"used":0},
+{"nodes":["part/depot/recess_rubbing_strips"],"units":[11,12],"used":0},
+{"nodes":["part/depot/strip_light_diffuser_unlit","part/depot/strip_light_end_caps","part/depot/strip_light_housing","part/depot/strip_light_mounting_rods"],"units":[0,1],"used":0},
+{"nodes":["part/depot/window_casement_angle_frames","part/depot/window_glass","part/depot/window_hinges_and_wedge_catches","part/depot/window_putty_beads","part/depot/window_stone_sill"],"units":[6],"used":0}
+]
+}

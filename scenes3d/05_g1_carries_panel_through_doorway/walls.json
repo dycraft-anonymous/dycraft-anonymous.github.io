@@ -1,0 +1,44 @@
+{
+"hide": [
+"part/continuous_ceiling/body",
+"part/delivery_passage/body",
+"part/delivery_passage/return_wall",
+"part/outer_walls/body",
+"part/outer_walls/court_facing",
+"part/outer_walls/east",
+"part/outer_walls/south",
+"part/skirting/body"
+],
+"cut": [],
+"units": [
+{"kind":"ceiling","box":[-3.7,-1.8,3.3,1.8],"under":2.45},
+{"kind":"wall","box":[-0.2,1.225,-1.692,0,-1,0.113,3.305,1.23]},
+{"kind":"wall","box":[3.192,1.225,0,-1,0,0.113,1.805,1.23]},
+{"kind":"wall","box":[-4.71,1.175,0,-1,0,0.095,1.805,1.18]},
+{"kind":"wall","box":[-0.2,1.225,1.545,0,-1,0.26,3.305,1.23]},
+{"kind":"wall","box":[-3.592,1.225,0,-1,0,0.113,1.805,1.23]},
+{"kind":"wall","box":[-4.16,1.175,-0.95,0,-1,0.095,0.465,1.18]},
+{"kind":"wall","box":[-3.592,1.055,0.682,0,1,0.022,0.113,1.06]},
+{"kind":"wall","box":[-0.108,0.047,-0.645,-1,0,0.013,0.96,0.053]},
+{"kind":"wall","box":[0.108,0.047,-0.645,-1,0,0.013,0.96,0.053]}
+],
+"tris": [
+["part/continuous_ceiling/body",0,[[0,12]]],
+["part/delivery_passage/body",0,[[3,12]]],
+["part/delivery_passage/return_wall",0,[[3,2],[5,2],[6,8]]],
+["part/outer_walls/body",0,[[5,12],[7,2],[5,14]]],
+["part/outer_walls/court_facing",0,[[5,2],[1,32],[2,2],[1,16]]],
+["part/outer_walls/east",0,[[2,12]]],
+["part/outer_walls/south",0,[[5,2],[2,2],[4,8]]],
+["part/skirting/body",0,[[8,6],[1,2],[8,4],[4,12],[9,6],[1,2],[9,4],[4,12],[5,2],[8,2],[1,8],[9,2],[2,2],[1,8],[5,2],[4,12],[2,2],[4,8],[5,4],[7,2],[1,2],[5,4],[2,4],[4,2],[1,2],[2,4]]]
+],
+"attach": [
+{"nodes":["part/delivery_passage/canopy"],"units":[3,5],"used":0,"over":2.35},
+{"nodes":["part/office_window/body","part/office_window/glass","part/office_window/glazing_bars","part/office_window/hinge_knuckles","part/office_window/latch","part/office_window/putty_beads","part/office_window/sash"],"units":[1],"used":0},
+{"nodes":["part/office_window/sill","part/writing_ledge/body","part/writing_ledge/enamel_mug","part/writing_ledge/iron_brackets","part/writing_ledge/ledger_cover","part/writing_ledge/ledger_pages","part/writing_ledge/ledger_spine","part/writing_ledge/marker_barrel","part/writing_ledge/marker_cap","part/writing_ledge/mug_rolled_rim","part/writing_ledge/steel_ruler","part/writing_ledge/wall_screw_heads"],"units":[1],"used":0},
+{"nodes":["part/service_door/body","part/service_door/four_glass_panes","part/service_door/glazing_putty","part/service_door/hinge_door_leaves","part/service_door/hinge_frame_leaves","part/service_door/leaf","part/service_door/recessed_lower_panel","part/service_door/retaining_mouldings","part/service_door/strike_plate","part/service_door/surface_latch_box","part/service_door/turned_latch_knobs"],"units":[5,7],"used":0},
+{"nodes":["part/utility_conduits/body"],"units":[2],"used":0},
+{"nodes":["part/workshop_window/body","part/workshop_window/glass","part/workshop_window/glazing_bars","part/workshop_window/latch","part/workshop_window/putty"],"units":[1],"used":0},
+{"nodes":["part/workshop_window/sill"],"units":[1],"used":0}
+]
+}

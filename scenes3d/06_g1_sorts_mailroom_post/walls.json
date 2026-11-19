@@ -1,0 +1,54 @@
+{
+"hide": [
+"part/environment/ceiling",
+"part/environment/corridor_ceiling",
+"part/environment/building_b_brick_facade",
+"part/environment/court_sky",
+"part/environment/skirting",
+"part/environment/corridor_skirting"
+],
+"cut": [
+"part/environment/body",
+"part/environment/corridor_return"
+],
+"units": [
+{"kind":"ceiling","box":[-1.83,-1.25,-1.7,-0.25],"under":2.05},
+{"kind":"ceiling","box":[-1.31,1.55,-0.37,1.68],"under":2.15},
+{"kind":"ceiling","box":[-1.83,-1.68,1.83,1.68],"under":2.65},
+{"kind":"ceiling","box":[-1.8,1.68,0.8,3.32],"under":2.65},
+{"kind":"ceiling","box":[-4.56,-2.7,-4.52,2.5],"under":2.75},
+{"kind":"context","box":[-4.44,1.38,-0.1,-1,0,0.085,2.555,1.385]},
+{"kind":"wall","box":[-1.57,1.325,0,-1,0,0.265,1.685,1.33]},
+{"kind":"wall","box":[0,1.325,1.61,0,1,0.095,1.835,1.33]},
+{"kind":"wall","box":[0,1.325,-1.465,0,-1,0.22,1.835,1.33]},
+{"kind":"wall","box":[1.75,1.325,0,1,0,0.085,1.685,1.33]},
+{"kind":"wall","box":[-1.737,1.325,2.5,-1,0,0.068,0.825,1.33]},
+{"kind":"wall","box":[0.737,1.325,2.5,-1,0,0.068,0.825,1.33]},
+{"kind":"wall","box":[-0.5,1.325,3.356,0,-1,0.069,1.335,1.33]},
+{"kind":"context","box":[-4.44,1.06,-1.265,0,1,0.005,0.085,1.065]},
+{"kind":"wall","box":[-1.83,1.325,3.37,-1,0,0.005,0.055,1.33]},
+{"kind":"wall","box":[0.83,1.325,3.37,1,0,0.005,0.055,1.33]},
+{"kind":"wall","box":[0,2.65,0,1,0,1.835,1.685,0.005]}
+],
+"tris": [
+["part/environment/body",0,[[6,8],[16,8],[7,6],[-1,10],[8,2],[6,3],[0,2],[8,3],[6,2],[9,2],[6,12],[8,2],[9,2],[7,6],[6,2],[1,2],[7,2],[6,2],[8,2],[6,8],[8,2]]],
+["part/environment/building_b_brick_facade",0,[[5,12],[13,2],[5,14]]],
+["part/environment/ceiling",0,[[2,12]]],
+["part/environment/corridor_ceiling",0,[[3,12]]],
+["part/environment/corridor_return",0,[[14,2],[15,2],[12,4],[-1,2],[12,2],[10,4],[12,2],[7,2],[-1,2],[10,2],[11,4],[12,2],[7,2],[-1,2],[11,2]]],
+["part/environment/corridor_skirting",0,[[10,2],[11,2],[12,8],[10,4],[12,2],[7,2],[10,4],[11,4],[12,2],[7,2],[11,4]]],
+["part/environment/court_sky",0,[[4,12]]],
+["part/environment/skirting",0,[[6,2],[9,2],[8,8],[9,4],[7,2],[8,2],[9,4],[6,4],[7,2],[8,2],[6,8],[7,10],[9,2],[7,8]]]
+],
+"attach": [
+{"nodes":["part/environment/batten_clips","part/environment/batten_diffuser","part/environment/batten_endcaps","part/environment/batten_housing","part/environment/conduit_saddles","part/environment/electrical_conduit","part/environment/electrical_junction"],"units":[8],"used":1},
+{"nodes":["part/environment/case_hinge_pin","part/environment/dispatch_brackets","part/environment/dispatch_clipboard","part/environment/dispatch_core","part/environment/dispatch_fascia_letters","part/environment/dispatch_surface","part/environment/route_clip","part/environment/route_sheet","part/environment/route_sheet_heading","part/environment/route_sheet_rules","part/environment/route_signature","part/environment/spectacle_case_base","part/environment/spectacle_case_lid","part/environment/spectacles_frames","part/environment/spectacles_lenses","part/environment/transit_lid_0","part/environment/transit_lid_1","part/environment/transit_lid_inset_0","part/environment/transit_lid_inset_1","part/environment/transit_tote_0","part/environment/transit_tote_1"],"units":[7],"used":0},
+{"nodes":["part/environment/corridor_light_diffuser","part/environment/corridor_light_housing"],"units":[3],"used":0},
+{"nodes":["part/environment/envelope_stock_0_0","part/environment/envelope_stock_0_1","part/environment/envelope_stock_0_2","part/environment/envelope_stock_1_0","part/environment/envelope_stock_1_1","part/environment/envelope_stock_1_2","part/environment/envelope_stock_2_0","part/environment/envelope_stock_2_1","part/environment/envelope_stock_2_2","part/environment/envelope_stock_3_0","part/environment/envelope_stock_3_1","part/environment/envelope_stock_3_2","part/environment/stationery_brackets_0","part/environment/stationery_brackets_1","part/environment/stationery_brackets_2","part/environment/stationery_brackets_3","part/environment/stationery_shelf_0","part/environment/stationery_shelf_1","part/environment/stationery_shelf_2","part/environment/stationery_shelf_3","part/environment/stationery_uprights","part/environment/stock_carton_0_0","part/environment/stock_carton_0_1","part/environment/stock_carton_0_2","part/environment/stock_carton_1_0","part/environment/stock_carton_1_1","part/environment/stock_carton_1_2","part/environment/stock_carton_2_0","part/environment/stock_carton_2_1","part/environment/stock_carton_2_2","part/environment/stock_carton_3_0","part/environment/stock_carton_3_1","part/environment/stock_carton_3_2","part/environment/stock_flaps_0_0","part/environment/stock_flaps_0_1","part/environment/stock_flaps_0_2","part/environment/stock_flaps_1_0","part/environment/stock_flaps_1_1","part/environment/stock_flaps_1_2","part/environment/stock_flaps_2_0","part/environment/stock_flaps_2_1","part/environment/stock_flaps_2_2","part/environment/stock_flaps_3_0","part/environment/stock_flaps_3_1","part/environment/stock_flaps_3_2"],"units":[9],"used":0},
+{"nodes":["part/environment/flattened_carton_0","part/environment/flattened_carton_1","part/environment/flattened_carton_2","part/environment/flattened_carton_3","part/environment/flattened_carton_4"],"units":[8],"used":0},
+{"nodes":["part/environment/old_reception_door","part/environment/old_reception_frame","part/environment/reception_door_crossrail","part/environment/reception_door_glass","part/environment/reception_kickplate","part/environment/reception_pull"],"units":[5,13],"used":0},
+{"nodes":["part/environment/reception_old_sign","part/environment/reception_sign_letters"],"units":[5],"used":0},
+{"nodes":["part/environment/removed_notice_patches"],"units":[8,9],"used":0},
+{"nodes":["part/environment/window_casement","part/environment/window_glass","part/environment/window_hinge_barrels","part/environment/window_latch","part/environment/window_outer_frame","part/environment/window_putty","part/environment/window_sill"],"units":[0,6,8],"used":0}
+]
+}
